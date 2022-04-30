@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+.fond {
+	width: 100%;
+	position: fixed;
+	margin-left: -8px;
+	height: 100%;
+	background: #437BB6;
+}
+
+.calculDistance {
+	height: 51vh;
+	width: 65vh;
+	margin-left: 35%;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-top: 80px;
+	box-sizing: border-box;
+	background: white;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+}
+
+h4 {
+	text-align: center;
+	font-weight: normal;
+	font-size: 3vh;
+}
+
+.formulaire {
+	margin: 40px;
+}
+
+p {
+	font-size: 2.5vh;
+	margin-top: 65px;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input {
+	width: 73%;
+	height: 24px;
+	border: 2px solid #437BB6;
+}
+
+input[type=submit] {
+	margin-top: 12%;
+	float: right;
+	background: #437BB6;
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	font-size: 18px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 6px;
+	padding-left: 30px;
+	padding-right: 24PX;
+	padding-top: 6px;
+	padding-bottom: 5px;
+}
+
+.btn_accueil {
+	background: white;
+	margin-top: 11px;
+	width: 61px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+	display: inline-block;
+}
+
+.btn_villes {
+	background: white;
+	margin-top: 11px;
+	width: 61px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+}
+
+a {
+	border: none;
+	margin-left: 4px;
+}

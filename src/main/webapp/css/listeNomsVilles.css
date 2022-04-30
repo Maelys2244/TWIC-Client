@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+.fond {
+	width: 100%;
+	position: fixed;
+	margin-left: -8px;
+	height: 100%;
+	background: #437BB6;
+}
+
+.btn_accueil {
+	background: white;
+	margin-top: 11px;
+	width: 61px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+	display: inline-block;
+}
+
+.boutonSuivant input[type=submit], .boutonPrecedent input[type=submit], .boutonPage1 input[type=submit] {
+	margin-top: 515px;
+	background: white;
+    color: #437BB6;
+    display: inline-block;
+    float: right;
+    border: none;
+    font-size: 17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+button{
+	margin-top: 28px;
+    background: white;
+    color: #437BB6;
+    display: inline-block;
+    margin-right: 60px;
+    float: right;
+    border: none;
+    font-size: 17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+
+.boutonPrecedent input[type=submit] {
+    margin-right: 20px;
+    padding-left: 21px;
+    padding-right: 17px;
+}
+
+.boutonSuivant input[type=submit] {
+	margin-right: 51px;
+    padding-left: 30px;
+    padding-right: 24px;
+}
+
+.boutonPage1 input[type=submit] {
+	float: left;
+    margin-left: 54px;
+    padding-left: 30px;
+    padding-right: 24px;
+}
+
+.boutonPrecedent input[disabled=disabled], .boutonSuivant input[disabled=disabled], .boutonPage1 input[disabled=disabled]{
+	opacity: 0.4;
+}
+
+a {
+	border: none;
+	margin-left: 4px;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #222;
+	border-radius: 0 5px 5px 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #000;
+}
+
+.fond_tableau {
+	position: absolute;
+	width: 103%;
+	height: 519px;
+	left: 50%;
+	top: 104px;
+	transform: translate(-50%, 0);
+}
+
+.fond_tableau h2 {
+	font-family: Montserrat;
+	font-weight: normal;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 20px;
+	color: #000000;
+}
+
+.tableau {
+	height: 455px;
+	overflow-y: auto;
+	width: 90%;
+	margin: auto;
+}
+
+table {
+	width: 100%;
+	border: solid 2px black;
+	background: rgba(255, 255, 255, 0.7);
+	margin-left: 0;
+	border-collapse: collapse;
+	overflow-y: scroll;
+}
+
+thead th {
+	position: sticky;
+	top: 0;
+	background: #fdfdf9;
+	border-top: solid 1px white;
+}
+
+thead{
+	text-align: left;
+    font-size: 17px;
+}

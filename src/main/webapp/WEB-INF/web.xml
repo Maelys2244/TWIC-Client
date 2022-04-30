@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+    id="WebApp_ID"
+    version="3.0">
+  <display-name>TP_ESEO_Maven_Client</display-name>
+  <servlet>
+        <servlet-name>Accueil</servlet-name>
+        <servlet-class>servlets/Accueil</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>Accueil</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Accueil</servlet-name>
+        <url-pattern>/accueil</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ListeNomsVilles</servlet-name>
+        <servlet-class>servlets/ListeNomsVilles</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>ListeNomsVilles</servlet-name>
+        <url-pattern>/listeNomsVilles</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>DistanceResultat</servlet-name>
+        <servlet-class>servlets/DistanceResultat</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>DistanceResultat</servlet-name>
+        <url-pattern>/distanceResultat</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AjouterVille</servlet-name>
+        <servlet-class>servlets/AjouterVille</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>AjouterVille</servlet-name>
+        <url-pattern>/ajouterVille</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ModifierVille</servlet-name>
+        <servlet-class>servlets/ModifierVille</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>ModifierVille</servlet-name>
+        <url-pattern>/modifierVille</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MeteoVille</servlet-name>
+        <servlet-class>servlets/MeteoVille</servlet-class>
+    </servlet>
+   	<servlet-mapping>
+        <servlet-name>MeteoVille</servlet-name>
+        <url-pattern>/meteoVille</url-pattern>
+    </servlet-mapping>
+    
+</web-app>

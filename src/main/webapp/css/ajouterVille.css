@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+.fond {
+	width: 100%;
+	position: fixed;
+	margin-left: -8px;
+	height: 100%;
+	background: #437BB6;
+}
+
+.btn_accueil {
+	background: white;
+	margin-top: 11px;
+	width: 61px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+}
+
+.btn_villes {
+	background: white;
+	margin-top: 13px;
+	width: 61px;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+}
+
+input {
+    width: 63%;
+    height: 21px;
+    border: 2px solid #437BB6;
+    display: inline-block;
+    float: right;
+    margin-right: 32px;
+    margin-top: 11px;
+}
+
+input[type=submit], input[type=button] {
+	margin-top: 26px;
+    margin-left: 71px;
+	background: #437BB6;
+	color: white;
+	width: fit-content;
+	height: fit-content;
+	font-size: 18px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 6px;
+	padding-left: 30px;
+	padding-right: 24PX;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	display:inline-block;
+	float : left;
+}
+
+input[type=submit]{
+	margin-left: 86px;
+	margin-top: 25px;
+
+}
+
+input[type=button]{
+	margin-left: 38px;
+    margin-top: 30px;
+}
+
+
+label {
+    margin-top: 19px;
+    margin-left: 37px;
+    float: left;
+    display: inline-block;
+}
+
+p{
+	font-size: 22px;
+    margin-left: 29px;
+    margin-top: 12px;
+    margin-bottom: 13px;
+    margin-left: 29px;
+}
+
+.formulaire {
+	height: 53vh;
+	width: 90vh;
+	margin-left: 30%;
+	border: 2px solid white;
+	border-radius: 8px;
+	margin-top: 28px;
+	box-sizing: border-box;
+	background: white;
+	box-shadow: 0px 4px 4px rgb(0 0 0/ 25%);
+}

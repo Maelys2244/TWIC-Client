@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.en_tete .imgGauche {
+	height: 12vh;
+    display: inline-block;
+    float: left;
+    margin-left: 6px;
+    margin-right: 10px;
+}
+
+.en_tete {
+	text-align : center;
+}
+
+.en_tete .imgDroite {
+	height: 12vh;
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+.en_tete h1 {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    display: inline-block;
+    margin-top: 8px;
+    color: #000000;
+}
+
+.en_tete .sousTitre {
+	font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    margin-top: -35px;
+}
+
+.bandeau {
+	width: 100%;
+    background: #437BB6;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Alumni Sans';
+    color: white;
+    margin-top: 30px;
+}
+
+
+.indexCalculateur {
+	color: white;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+
+.indexNom {
+	color: white;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
