@@ -59,7 +59,7 @@ public class Accueil extends HttpServlet {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			 Thread.currentThread().interrupt();
 		}
 		if (maSession == null) {
 			maSession = request.getSession();
@@ -94,7 +94,7 @@ public class Accueil extends HttpServlet {
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				 Thread.currentThread().interrupt();
 			}
 
 			var requestVille = HttpRequest.newBuilder()
@@ -105,7 +105,7 @@ public class Accueil extends HttpServlet {
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				 Thread.currentThread().interrupt();
 			}
 		}
 
@@ -130,7 +130,7 @@ public class Accueil extends HttpServlet {
 			} catch (IOException e) {
 				e.printStackTrace();
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				 Thread.currentThread().interrupt();
 			}
 		}
 		doGet(request, response);

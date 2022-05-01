@@ -80,13 +80,13 @@ public class ListeNomsVilles extends HttpServlet {
 		}
 
 		if (request.getParameter("suivant") != null) {
-			gestionPages.pageSuivante(debut, fin, listVilles);
+			gestionPages.pageSuivante(fin, listVilles);
 		}
 		if (request.getParameter("precedent") != null) {
 			gestionPages.pagePrecedente(debut, fin, listVilles);
 		}
 		if (request.getParameter("premierePage") != null) {
-			gestionPages.premierePage(debut, fin);
+			gestionPages.premierePage();
 		}
 		request.setAttribute("debut", gestionPages.getDebut());
 		request.setAttribute("fin", gestionPages.getFin());

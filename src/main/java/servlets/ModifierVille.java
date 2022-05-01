@@ -14,16 +14,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
 import beans.Ville;
-import beans.Weather;
 
 /**
  * Servlet implementation class ModifierVille
@@ -75,7 +69,7 @@ public class ModifierVille extends HttpServlet {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			 Thread.currentThread().interrupt();
 		}
 		request.setAttribute("ville", ville);
 

@@ -41,12 +41,12 @@ public class GestionPages {
 		this.debut = debut - 50;
 	}
 	
-	public void premierePage(int debut, int fin) {
+	public void premierePage() {
 		this.fin = 49;
 		this.debut = 0;
 	}
 	
-	public void pageSuivante(int debut, int fin, ArrayList<Ville> listVilles) {
+	public void pageSuivante(int fin, ArrayList<Ville> listVilles) {
 		this.debut = fin + 1;
 		if((fin+50)>listVilles.size()) {
 			this.fin = listVilles.size()-1;

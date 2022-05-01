@@ -95,7 +95,7 @@ public class MeteoVille extends HttpServlet {
 		} catch (IOException e) {
 			e.printStackTrace();
 		} catch (InterruptedException e) {
-			e.printStackTrace();
+			 Thread.currentThread().interrupt();
 		}
 		request.setAttribute("meteoVille", meteoVille);
 		request.setAttribute("ville", ville);

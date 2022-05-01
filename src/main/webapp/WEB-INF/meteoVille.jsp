@@ -35,17 +35,14 @@
 			<div>
 				<p>Longitude :</p>
 				<c:out value="${ville.getLatitude()}" />
-				°
+				<p style="font-weight: normal;">°</p>
 			</div>
 			<div>
 				<p>Latitude :</p>
 				<c:out value="${ville.getLongitude()}" />
-				°
+				<p style="font-weight: normal;">°</p>
 			</div>
-			<div>
-				<p>Main :</p>
-				<c:out value="${meteoVille.getMain()}" />
-			</div>
+			
 			<div>
 				<p>Description :</p>
 				<c:out value="${meteoVille.getDescription()}" />

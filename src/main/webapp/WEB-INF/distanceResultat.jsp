@@ -70,6 +70,7 @@
 				<p>
 					La distance est de
 					<c:out value="${distance}" />
+					km
 				</p>
 			</div>
 		</div>
